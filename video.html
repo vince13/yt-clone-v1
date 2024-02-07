@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" type="images/png" href="images/youtube-logo.png">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>My YouTube</title>
+
+    <!--  // Font Awesome CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+          integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous"/>
+    <!-- // Google Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+
+</head>
+<body>
+<div class="header">
+
+    <!--    Header Menu starts here -->
+    <div class="header__left">
+        <i id="menu" class="material-icons">menu</i>
+        <img src="https://www.xda-developers.com/files/2017/08/After-12-Years-Google-Gives-YouTube-a-New-Logo-1900x700_c.png"
+             alt="">
+    </div>
+    <!--    Header menu end here -->
+
+    <!--    Header search starts here -->
+    <div class="header__search">
+        <form action="" method="GET">
+            <input type="text" placeholder="Search">
+            <button><i class="material-icons">search</i></button>
+        </form>
+    </div>
+    <!--    Header search ends here -->
+
+    <!--    Header icons starts here -->
+    <div class="header__icons">
+        <i class="material-icons display-this">search</i>
+        <i class="material-icons display-this">videocam</i>
+        <i class="material-icons display-this">apps</i>
+        <i class="material-icons display-this">notifications</i>
+        <i id="account" class="material-icons display-this">account_circle</i>
+    </div>
+    <!--    Header icons ends here -->
+</div>
+<!-- Header section ends here-->
+
+<!-- The Video body start here-->
+<main class="single_video_pages">
+    <section class="video_items flex">
+        <!-- Left div starts here -->
+        <div class="left">
+            <div class="left_content">
+                <video controls>
+                    <source src="video/Black Sherif - Don't Forget Me [Official Visualise.mp4">
+                </video>
+                <div class="tags">
+                    <label class="tags" for="">#vincent #python #django</label>
+                    <p>Your video title goes here</p>
+                </div>
+
+                <div class="view flex2 border_bottom">
+                    <div class="view-text">
+                        <span>113,000 views</span>
+                    </div>
+                    <div class="flex">
+                        <div class="icon">
+                            <a href=""><i class="fas fa-thumbs-up"></i></a>
+                            <label for="">5k</label>
+                        </div>
+                        <div class="icon">
+                            <a href=""><i class="fas fa-thumbs-down"></i></a>
+                            <label for="">Dislike</label>
+                        </div>
+                        <div class="icon">
+                            <a href=""><i class="fas fa-share"></i></a>
+                            <label for="">Share</label>
+                        </div>
+                        <div class="icon">
+                            <a href=""><i class="fas fa-scissors"></i></a>
+                            <label for="">Clip</label>
+                        </div>
+                        <div class="icon">
+                            <a href=""><i class="fas fa-bookmark"></i></a>
+                            <label for="">Save</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+</main>
+
+<!-- The Video body ends here-->
+
+<!--Js -->
+<script src="js/main.js"></script>
+</body>
+</html>
